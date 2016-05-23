@@ -1,0 +1,17 @@
+{
+  "name": "bootstrap-test",
+  "authors": [
+    "yoobright <yxj3179@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
