@@ -13,5 +13,22 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "jquery": "^2.2.4",
+    "bootstrap": "^3.3.6",
+    "SyntaxHighlighter": "^3.0.83",
+    "jquery.cookie": "jquery-cookie#^1.4.1"
+  },
+  "exportsOverride": {
+    "bootstrap": {
+      "js": "dist/js/*.js",
+      "css": "dist/css/*.css",
+      "fonts": "dist/fonts/*.*"
+    },
+    "SyntaxHighlighter": {
+      "js": "scripts/*.js",
+      "css": "styles/*.css"
+    }
+  }
 }
